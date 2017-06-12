@@ -4,7 +4,7 @@
 .rad-sidebar {
   z-index: 9999;
   position: fixed;
-  background: #2f4050;
+  background: #0A3442;
   width: 225px;
   height: 100vh;
   top: 50px;
@@ -37,7 +37,7 @@
   transform: translate3d(0, 0, 0);
 }
 .rad-sidebar li:hover {
-  background: #263340;
+  background: #15adcb;
 }
 .rad-sidebar li a:hover{
   text-decoration: none;
@@ -65,8 +65,7 @@
   height: 250px;
 }
 .iconCircleMenu{
-  color: #00B1F1;
-  /*margin-right: 15px;*/
+  color: #15adcb;
 }
 .rad-sidebar li:hover .iconCircleMenu{
     color: #fff;
@@ -97,7 +96,7 @@
   padding-right: 6%;
 }
 .iconCogs{
-  color: #00B1F1;
+  color: #15adcb;
   text-align: right;
   font-size: 20px;
   float: right;

@@ -87,7 +87,11 @@
   color: #00B1F1;
 }
 
-
+@media screen and (max-width: 850px){
+  .nav--secondary .container-cards{
+    padding-left: 0;
+  }
+}
 /* ---------------------------------------------------------------------- */
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
 .collapse {
@@ -95,12 +99,12 @@
   display: block ;
 }
 .collapse .collapse__head {
-  width: 10%;
+  width: 50%;
   position: relative;
   cursor: pointer;
-  padding: 5px 10px 5px 30px;
+  padding: 5px 10px 5px 0;
 }
-.collapse .collapse__head:after {
+/*.collapse .collapse__head:after {
   content: "";
   position: absolute;
   left: 8px;
@@ -114,7 +118,7 @@
   border-left: 6px solid transparent;
   border-right: 6px solid transparent;
   border-top: 6px solid #333;
-}
+}*/
 .collapse .collapse__body {
   padding: 10px 0px 10px 0;
   display: none;
@@ -124,4 +128,38 @@
 }
 .collapse__body .container-cards{
   padding-left: 0;
+}
+.collapse .collapse__head .nav-indicator {
+  position: absolute;
+  left: 25em;
+}
+.collapse .collapse__head svg.nav-indicator path {
+  fill: none;
+  stroke: #aaa;
+  stroke-linecap: round;
+  stroke-width: 2;
+  stroke-dasharray: 29 40;
+  -webkit-transition: stroke-dashoffset 0.3s;
+  transition: stroke-dashoffset 0.3s;
+}
+.collapse .collapse__head svg.nav-indicator--alt {
+  -webkit-transform: translateY(-20%);
+  transform: translateY(-20%);
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+.collapse .collapse__head svg.nav-indicator--alt path {
+  fill: none;
+  stroke: #00B1F1;
+  stroke-linecap: square;
+  stroke-width: 2;
+  stroke-dasharray: 14 40;
+  stroke-dashoffset: -15;
+  -webkit-transition: stroke-dashoffset 0.3s;
+  transition: stroke-dashoffset 0.3s;
+}
+.flecha{
+  stroke-dashoffset: 0;
 }

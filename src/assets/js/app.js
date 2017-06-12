@@ -75,10 +75,9 @@ $(document).ready(function(){
   $('.collapse__head').click(function(){
     $(this).toggleClass('open'); 
     $(this).parent().find('.collapse__body').slideToggle('slow');
-  });
-
-  $('.collapse__head').click(function(){
-    $(this).toggleClass('open'); 
-    $(this).parent().find('.collapse__body').slideToggle('slow');
+    $('.collapse .collapse__head svg.nav-indicator--alt path').toggleClass('flecha');
   });
 })
+
+
+
