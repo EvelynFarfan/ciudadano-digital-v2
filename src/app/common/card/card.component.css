@@ -1,0 +1,46 @@
+/* -------------------------------------    CARDS   ------------------------------------ */
+.card{
+  /*display: none;*/
+  width: 90%;
+  border-radius: 4px;
+  background-color: #FFFFFF;
+  margin-bottom: 30px;
+  box-shadow: 2px 2px 5px #c7c7c7;
+  border: 1px solid #d3d3d3;
+  font-family: 'Roboto', sans-serif ;
+}
+.card .header {
+  padding: 20px 15px 15px;
+  border-bottom: 1px solid #e1e1e1;
+}
+.card .content {
+  padding: 20px 15px 10px 15px;
+}
+.subtitleCard{
+  color: #9c9c9c;
+  font-weight: bold;
+}
+.buttonCard{
+  background-color: #f9f9f9;
+  padding: 3% 0 0 3%;
+  border-top: 1px solid #cecece
+}
+.buttonCard p{
+  font-weight: bold;
+  color: gray;
+}
+.buttonCard:hover  .buttonCardText{
+  color: #00B1F1;
+}
+.iconArrowCard{
+  color: #00B1F1;
+}
+.nameChildren{
+  padding-top: 13%;
+  font-weight: bold;
+  font-size: 17px;
+  text-align: center
+}
+.iconGener{
+  padding-top: 75%;
+}
