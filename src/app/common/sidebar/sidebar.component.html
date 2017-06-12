@@ -1,50 +1,41 @@
-<!-- <div class="sidebar">
-	<div class="sidebar-wrapper">
-		<div class="logo">
-			<a href="#">
-				<img class="img-responsive" src="./assets/img/logo_minsa.jpg" alt="Logo Minsa">
-			</a>
-		</div>
-		<div class="user">
-			<div class="photo">
-				<img src="./assets/img/user.png" alt="Imagen de Usuario">
-			</div>
-			<div class="info">
-				
-			</div>
-		</div>
-		<hr>
-		<ul class="nav">
-			<li class="liMenu" *ngFor = "let item of items">
-				<a href="#">
-					<i class="fa fa-circle-o iconCircleMenu" aria-hidden="true"></i>
-					<span class="textMenu">{{item}}</span>
-				</a>
-			</li>
-		</ul>
-	</div>
-</div> -->
-<div class="collapse navbar-collapse navbar-ex1-collapse">
-	<ul class="nav navbar-nav side-nav">
-		<div class="user">
-			<div class="photo">
-				<img src="./assets/img/user.jpg" alt="Imagen de Usuario">
-			</div>
-			<div class="info">
-				<p class="nameUser">Sandra</p>
-				<p class="lastNameUser">Suárez Peralta</p>
-			</div>
-			<div class="contentIconCogs">
-				<a href="#">
-					<i class="fa fa-cog iconCogs" aria-hidden="true"></i>
-				</a>
-			</div>
-		</div>
-		<li class="liMenu" *ngFor = "let item of items">
-			<a href="#">
-				<i class="fa fa-circle-o iconCircleMenu" aria-hidden="true"></i>
-				<span class="textMenu">{{item}}</span>
-			</a>
-		</li>
-	</ul>
-</div>
+<nav class="rad-sidebar">
+  <div class="user">
+    <div class="photo">
+      <img src="./assets/img/user.jpg" alt="Imagen de Usuario">
+    </div>
+    <div class="info">
+      <p class="nameUser">Sandra</p>
+      <p class="lastNameUser">Suárez Peralta</p>
+    </div>
+    <div class="contentIconCogs">
+      <a href="#">
+        <i class="fa fa-cog iconCogs" aria-hidden="true"></i>
+      </a>
+    </div>
+  </div>
+  <ul>
+    <!-- <li>
+      <a href="#" class="inbox">
+        <i class="fa fa-dashboard"><span class="icon-bg rad-bg-success"></span></i>
+        <span class="rad-sidebar-item">Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+      	<i class="fa fa-bar-chart-o">
+					<span class="icon-bg rad-bg-danger"></span>
+				</i>
+      	<span class="rad-sidebar-item">Ticket status</span>
+      </a>
+    </li>
+    <li><a href="#" class="snooz"><i class="fa fa-line-chart"><span class="icon-bg rad-bg-primary"></span></i><span class="rad-sidebar-item">Call trends</span></a></li>
+    <li><a href="#" class="done"><i class="fa fa-area-chart"><span class="icon-bg rad-bg-warning"></span></i><span class="rad-sidebar-item">Heat maps</span></a></li>
+    <li><a href="#"><i class="fa fa-wrench"><span class="icon-bg rad-bg-violet"></span></i><span class="rad-sidebar-item">Settings</span></a></li> -->
+    <li class="liMenu" *ngFor = "let item of items">
+      <a href="#">
+        <i class="fa fa-circle-o iconCircleMenu" aria-hidden="true"></i>
+        <span class="textMenu">{{item}}</span>
+      </a>
+    </li>
+  </ul>
+</nav>

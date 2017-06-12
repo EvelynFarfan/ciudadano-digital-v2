@@ -5,7 +5,6 @@ import { HttpModule } from '@angular/http';
 import { AlertModule } from 'ngx-bootstrap';
 
 import { AppComponent } from './app.component'
-import { WrapperComponent } from './common/wrapper/wrapper.component'
 import { NavbarComponent } from './common/navbar/navbar.component' //
 import { SidebarComponent } from './common/sidebar/sidebar.component' //
 import { PageWrapperComponent } from './common/page-wrapper/page-wrapper.component' 
@@ -17,7 +16,6 @@ import { FooterComponent } from './common/footer/pie.component'//
 @NgModule({
   declarations: [
     AppComponent,
-    WrapperComponent,
     SidebarComponent,
     NavbarComponent,
     PageWrapperComponent,

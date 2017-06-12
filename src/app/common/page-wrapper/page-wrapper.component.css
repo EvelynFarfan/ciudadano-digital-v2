@@ -1,11 +1,27 @@
-#page-wrapper {
-  width: 100%;
-  padding: 0;
-  background-color: #fff;
+.rad-body-wrapper {
+  position: absolute;
+  left: 250px;
+  top: 75px;
+  width: auto;
+  right: 0;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
 }
-
-@media(min-width:768px) {
-  #page-wrapper {
-    padding: 6% 3%;
+.rad-body-wrapper.rad-nav-min {
+  left: 50px;
+}
+.rad-chart {
+  height: 250px;
+}
+.opacidad{
+	background-color:rgba(0,0,0,0.4)
+}
+@media screen and (max-width: 850px){
+	.rad-body-wrapper {
+    top: 125px;
+    position: relative;
+	}
+  .rad-body-wrapper.rad-nav-min {
+    left: 0px;
   }
 }
