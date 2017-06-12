@@ -1,4 +1,5 @@
 $(document).ready(function(){
+  
   $(function() {
 
     $(document).on("click", function(e) {
@@ -76,4 +77,8 @@ $(document).ready(function(){
     $(this).parent().find('.collapse__body').slideToggle('slow');
   });
 
+  $('.collapse__head').click(function(){
+    $(this).toggleClass('open'); 
+    $(this).parent().find('.collapse__body').slideToggle('slow');
+  });
 })
