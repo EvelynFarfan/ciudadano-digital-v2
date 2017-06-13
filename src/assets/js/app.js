@@ -22,11 +22,7 @@ $(document).ready(function(){
     $(this).next(".rad-dropmenu-item").toggleClass("active");
   });
 
-  $(window).resize(function() {
-    $.throttle(250, setTimeout(function() {
-      initializeCharts();
-    }, 200));
-  });
+
 
   function initializeCharts() {
     $(".rad-chart").empty();

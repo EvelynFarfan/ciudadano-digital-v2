@@ -2,7 +2,7 @@
   z-index: 9999;
   position: fixed;
   /*background: #0A3442;*/
-  background: #fff;
+  background: #00B1F1;
   width: 225px;
   height: 100vh;
   top: 50px;
@@ -18,8 +18,8 @@
 .rad-sidebar li a {
   display: inline-block;
   width: 100%;
-  /*color: #fff;*/
-  color: #828282;
+  color: #fff;
+  /*color: #828282;*/
 }
 .rad-sidebar li a i {
   width: 50px;
@@ -36,7 +36,7 @@
   transform: translate3d(0, 0, 0);
 }
 .rad-sidebar li:hover {
-  background: #00B1F1;
+  background: rgba(0, 0, 0, 0.20);
 }
 .rad-sidebar li a:hover{
   text-decoration: none;
@@ -64,7 +64,7 @@
   height: 250px;
 }
 .iconCircleMenu{
-  color: #00B1F1;
+  color: #fff;
 }
 .rad-sidebar li:hover .iconCircleMenu{
   color: #fff;
@@ -85,8 +85,8 @@
   margin: 0 auto;
 }
 .nameUser, .lastNameUser{
-  /*color: #fff;*/
-  color: #828282;
+  color: #fff;
+  /*color: #828282;*/
   text-align: center;
   margin: 0;
   padding: 0;
@@ -99,7 +99,7 @@
   padding-right: 6%;
 }
 .iconCogs{
-  color: #00B1F1;
+  color: #fff;
   text-align: right;
   font-size: 20px;
   float: right;
