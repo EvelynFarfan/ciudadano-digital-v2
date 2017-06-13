@@ -34,6 +34,7 @@
   float: right;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
+  padding-right: 2%;
 }
 .rad-toggle-btn, .rad-logo {
   text-decoration: none;
@@ -118,7 +119,19 @@
   line-height: 12px;
   text-decoration: none;
 }
-
+.nameUserDropdown, .iconDropdown{
+  color: #000;
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  text-decoration: none;
+  background-color: transparent;
+}
+.nav>li>a {
+  padding: 15px 15px;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+  background-color: transparent;
+}
 @media screen and (max-width: 850px) {
   .rad-navigation {
     height: 100px;
@@ -149,8 +162,14 @@
     padding: 0 15px;
     display: inline-block;
   }
+  .navbar-right li.dropdown{
+    float: right;
+    font-size: 14px
+  }
+  .navbar-right li.dropdown ul.dropdown-menu{
+    margin-left: 17%;
+  }
 }
-
 @-webkit-keyframes flipInX {
   0% {
     -webkit-transform: perspective(400px) rotate3d(1, 0, 0, 90deg);

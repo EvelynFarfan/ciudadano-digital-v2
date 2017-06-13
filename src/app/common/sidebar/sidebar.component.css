@@ -110,3 +110,11 @@
     transform: translate3d(-200px, 0, 0);
   }
 }
+@media screen and (min-width: 850px){
+  .rad-sidebar.rad-nav-min{
+    width: 225px !important;
+  }
+  .rad-body-wrapper.rad-nav-min{
+    left: 225px !important;
+  }
+}

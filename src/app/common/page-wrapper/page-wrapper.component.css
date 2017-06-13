@@ -25,3 +25,12 @@
     left: 0px;
   }
 }
+@media screen and (min-width: 851px){
+  .rad-body-wrapper.rad-nav-min{
+    left: 225px !important;
+  }
+  .rad-body-wrapper{
+    left: 225px !important;
+    padding: 2% 0 0 2%;
+  }
+}
