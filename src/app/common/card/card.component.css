@@ -48,3 +48,18 @@
     width: 100%;
   }
 }
+@media (min-width: 1200px) and (max-width: 1600px){
+  .card{
+    width: 100%;
+  }
+}
+@media (min-width: 850px) and (max-width: 1000px){
+  .card{
+    width: 100%;
+  }
+}
+@media (min-width: 667px) and (max-width: 990px){
+  .card{
+    width: 100%;
+  }
+}
