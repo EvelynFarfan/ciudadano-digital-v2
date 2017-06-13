@@ -14,15 +14,29 @@
   height: 250px;
 }
 .opacidad{
-	background-color:rgba(0,0,0,0.4)
+	opacity: 1 !important;
+  visibility: visible !important;
+}
+.sidenav-overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9;
+  opacity: 0;
+  visibility: hidden;
+  transition: .5s;
 }
 @media screen and (max-width: 850px){
 	.rad-body-wrapper {
+    left: 0px;
     top: 125px;
     position: relative;
 	}
   .rad-body-wrapper.rad-nav-min {
-    left: 0px;
+    left: 0;
   }
 }
 @media screen and (min-width: 851px){
