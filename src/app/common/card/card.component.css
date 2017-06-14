@@ -38,7 +38,12 @@
   padding-top: 13%;
   font-weight: bold;
   font-size: 17px;
-  text-align: center
+  text-align: center;
+  display: inline-block;
+  color: #000;
+}
+.enlaceCard:hover .nameChildren{
+  color: #00B1F1;
 }
 .iconGener{
   padding-top: 75%;
